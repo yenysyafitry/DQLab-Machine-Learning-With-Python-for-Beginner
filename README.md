@@ -1,6 +1,4 @@
-### Eksplorasi Data: Memahami Data dengan Statistik - Part 1](https://academy.dqlab.id/main/livecode/169/328/1553)
-
-
+### Eksplorasi Data: Memahami Data dengan Statistik - Part 1 
 
 ```plantuml
 import pandas as pd
@@ -10,12 +8,18 @@ print('\nLima data teratas:\n', dataset.head())
 print('\nInformasi dataset:')
 print(dataset.info())
 print('\nStatistik deskriptif:\n', dataset.describe())
+```
+<details>
+<summary markdown="span">Output :</summary>
+Aksara, Usia: 25, Pendapatan 8500000</br>
+Senja, Usia: 28, Pendapatan 12500000	
+</details>
+</br>
+<a href="https://academy.dqlab.id/main/livecode/169/328/1553">Link materi : academy.dqlab.id/main/livecode/169/328/1553</a>
 
 ----
-### Eksplorasi Data: Memahami Data dengan Statistik - Part 2](https://academy.dqlab.id/main/livecode/169/328/1555)
-
-# In[2]:
-
+### Eksplorasi Data: Memahami Data dengan Statistik - Part 2 
+ 
 ```plantuml
 dataset_corr = dataset.corr()
 print('Korelasi dataset:\n', dataset.corr())
@@ -25,11 +29,18 @@ print('\nKorelasi BounceRates-ExitRates:', dataset_corr.loc['BounceRates', 'Exit
 print('\nKorelasi Revenue-PageValues:', dataset_corr.loc['Revenue', 'PageValues'])
 print('\nKorelasi TrafficType-Weekend:', dataset_corr.loc['TrafficType', 'Weekend'])
 
+```
+<details>
+<summary markdown="span">Output :</summary>
+Aksara, Usia: 25, Pendapatan 8500000</br>
+Senja, Usia: 28, Pendapatan 12500000	
+</details>
+</br>
+<a href="https://academy.dqlab.id/main/livecode/169/328/1555">Link materi : academy.dqlab.id/main/livecode/169/328/1555</a>
 
-### Eksplorasi Data: Memahami Data dengan Visual](https://academy.dqlab.id/main/livecode/169/328/1558)
-
-# In[3]:
-
+----
+### Eksplorasi Data: Memahami Data dengan Visual 
+ 
 ```plantuml
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -48,11 +59,18 @@ plt.xlabel('Weekend or not', fontsize = 14)
 plt.ylabel('count', fontsize = 14)
 plt.show()
 
+```
+<details>
+<summary markdown="span">Output :</summary>
+Aksara, Usia: 25, Pendapatan 8500000</br>
+Senja, Usia: 28, Pendapatan 12500000	
+</details>
+</br>
+<a href="https://academy.dqlab.id/main/livecode/169/328/1558">Link materi : academy.dqlab.id/main/livecode/169/328/1558</a>
 
-### Tugas Praktek](https://academy.dqlab.id/main/livecode/169/328/1559)
-
-# In[4]:
-
+----
+### Tugas Praktek 
+ 
 ```plantuml
 import matplotlib.pyplot as plt
 # visualizing the distribution of customers around the Region
@@ -62,10 +80,17 @@ plt.xlabel('Region Codes', fontsize = 14)
 plt.ylabel('Count Users', fontsize = 14)
 plt.show()
 
+```
+<details>
+<summary markdown="span">Output :</summary>
+Aksara, Usia: 25, Pendapatan 8500000</br>
+Senja, Usia: 28, Pendapatan 12500000	
+</details>
+</br>
+<a href="https://academy.dqlab.id/main/livecode/169/328/1559">Link materi : academy.dqlab.id/main/livecode/169/328/1559</a>
 
-### Data Pre-processing: Handling Missing Value - Part 1](https://academy.dqlab.id/main/livecode/169/328/1561)
-
-# In[5]:
+----
+### Data Pre-processing: Handling Missing Value - Part 1 
 
 ```plantuml
 #checking missing value for each feature  
@@ -75,21 +100,35 @@ print(dataset.isnull().sum())
 print('\nCounting total missing value:')
 print(dataset.isnull().sum().sum())
 
+```
+<details>
+<summary markdown="span">Output :</summary>
+Aksara, Usia: 25, Pendapatan 8500000</br>
+Senja, Usia: 28, Pendapatan 12500000	
+</details>
+</br>
+<a href="https://academy.dqlab.id/main/livecode/169/328/1561">Link materi : academy.dqlab.id/main/livecode/169/328/1561</a>
 
-### Data Pre-processing: Handling Missing Value - Part 2](https://academy.dqlab.id/main/livecode/169/328/1563)
-
-# In[6]:
-
+----
+### Data Pre-processing: Handling Missing Value - Part 2 
+ 
 ```plantuml
 #Drop rows with missing value   
 dataset_clean = dataset.dropna()  
 print('Ukuran dataset_clean:', dataset_clean.shape) 
 
+```
+<details>
+<summary markdown="span">Output :</summary>
+Aksara, Usia: 25, Pendapatan 8500000</br>
+Senja, Usia: 28, Pendapatan 12500000	
+</details>
+</br>
+<a href="https://academy.dqlab.id/main/livecode/169/328/1563">Link materi : academy.dqlab.id/main/livecode/169/328/1563</a>
 
-### Data Pre-processing: Handling Missing Value - Part 3](https://academy.dqlab.id/main/livecode/169/328/1565)
-
-# In[7]:
-
+----
+### Data Pre-processing: Handling Missing Value - Part 3 
+ 
 ```plantuml
 print("Before imputation:")
 # Checking missing value for each feature  
@@ -105,11 +144,18 @@ print(dataset.isnull().sum())
 # Counting total missing value  
 print(dataset.isnull().sum().sum())
 
+```
+<details>
+<summary markdown="span">Output :</summary>
+Aksara, Usia: 25, Pendapatan 8500000</br>
+Senja, Usia: 28, Pendapatan 12500000	
+</details>
+</br>
+<a href="https://academy.dqlab.id/main/livecode/169/328/1565">Link materi : academy.dqlab.id/main/livecode/169/328/1565</a>
 
-### Tugas Praktek](https://academy.dqlab.id/main/livecode/169/328/1566)
-
-# In[8]:
-
+----
+### Tugas Praktek 
+ 
 ```plantuml
 import pandas as pd
 dataset1 = pd.read_csv('https://dqlab-dataset.s3-ap-southeast-1.amazonaws.com/pythonTutorial/online_raw.csv')
@@ -128,11 +174,18 @@ print(dataset1.isnull().sum())
 # Counting total missing value  
 print(dataset1.isnull().sum().sum())
 
+```
+<details>
+<summary markdown="span">Output :</summary>
+Aksara, Usia: 25, Pendapatan 8500000</br>
+Senja, Usia: 28, Pendapatan 12500000	
+</details>
+</br>
+<a href="https://academy.dqlab.id/main/livecode/169/328/1566">Link materi : academy.dqlab.id/main/livecode/169/328/1566</a>
 
-### Tugas Praktek](https://academy.dqlab.id/main/livecode/169/328/1568)
-
-# In[9]:
-
+----
+### Tugas Praktek 
+ 
 ```plantuml
 from sklearn.preprocessing import MinMaxScaler  
 #Define MinMaxScaler as scaler  
@@ -144,11 +197,18 @@ dataset[scaling_column] = scaler.fit_transform(dataset[scaling_column])
 #Cheking min and max value of the scaling_column
 print(dataset[scaling_column].describe().T[['min','max']])
 
+```
+<details>
+<summary markdown="span">Output :</summary>
+Aksara, Usia: 25, Pendapatan 8500000</br>
+Senja, Usia: 28, Pendapatan 12500000	
+</details>
+</br>
+<a href="https://academy.dqlab.id/main/livecode/169/328/1568">Link materi : academy.dqlab.id/main/livecode/169/328/1568</a>
 
-### Data Pre-processing: Konversi string ke numerik](https://academy.dqlab.id/main/livecode/169/328/2464)
-
-# In[10]:
-
+----
+### Data Pre-processing: Konversi string ke numerik 
+ 
 ```plantuml
 import numpy as np
 from sklearn.preprocessing import LabelEncoder
@@ -165,11 +225,18 @@ dataset['VisitorType'] = LE.fit_transform(dataset['VisitorType'])
 print(LE.classes_)
 print(np.sort(dataset['VisitorType'].unique()))
 
+```
+<details>
+<summary markdown="span">Output :</summary>
+Aksara, Usia: 25, Pendapatan 8500000</br>
+Senja, Usia: 28, Pendapatan 12500000	
+</details>
+</br>
+<a href="https://academy.dqlab.id/main/livecode/169/328/2464">Link materi : academy.dqlab.id/main/livecode/169/328/2464</a>
 
-### Features & Label](https://academy.dqlab.id/main/livecode/169/329/1570)
-
-# In[11]:
-
+----
+### Features & Label 
+ 
 ```plantuml
 # removing the target column Revenue from dataset and assigning to X
 X = dataset.drop(['Revenue'], axis = 1)
@@ -179,11 +246,18 @@ y = dataset['Revenue']
 print("Shape of X:", X.shape)
 print("Shape of y:", y.shape)
 
+```
+<details>
+<summary markdown="span">Output :</summary>
+Aksara, Usia: 25, Pendapatan 8500000</br>
+Senja, Usia: 28, Pendapatan 12500000	
+</details>
+</br>
+<a href="https://academy.dqlab.id/main/livecode/169/329/1570">Link materi : academy.dqlab.id/main/livecode/169/329/1570</a>
 
-### Training dan Test Dataset](https://academy.dqlab.id/main/livecode/169/329/1571)
-
-# In[12]:
-
+----
+### Training dan Test Dataset 
+ 
 ```plantuml
 from sklearn.model_selection import train_test_split
 # splitting the X, and y
@@ -194,11 +268,18 @@ print("Shape of y_train :", y_train.shape)
 print("Shape of X_test :", X_test.shape)
 print("Shape of y_test :", y_test.shape)
 
+```
+<details>
+<summary markdown="span">Output :</summary>
+Aksara, Usia: 25, Pendapatan 8500000</br>
+Senja, Usia: 28, Pendapatan 12500000	
+</details>
+</br>
+<a href="https://academy.dqlab.id/main/livecode/169/329/1571">Link materi : academy.dqlab.id/main/livecode/169/329/1571</a>
 
-### Training Model: Fit](https://academy.dqlab.id/main/livecode/169/329/1572)
-
-# In[13]:
-
+----
+### Training Model: Fit 
+ 
 ```plantuml
 from sklearn.tree import DecisionTreeClassifier
 # Call the classifier
@@ -206,21 +287,35 @@ model = DecisionTreeClassifier()
 # Fit the classifier to the training data
 model = model.fit(X_train, y_train)
 
+```
+<details>
+<summary markdown="span">Output :</summary>
+Aksara, Usia: 25, Pendapatan 8500000</br>
+Senja, Usia: 28, Pendapatan 12500000	
+</details>
+</br>
+<a href="https://academy.dqlab.id/main/livecode/169/329/1572">Link materi : academy.dqlab.id/main/livecode/169/329/1572</a>
 
-### Training Model: Predict](https://academy.dqlab.id/main/livecode/169/329/1573)
-
-# In[14]:
-
+----
+### Training Model: Predict 
+ 
 ```plantuml
 # Apply the classifier/model to the test data
 y_pred = model.predict(X_test)
 print(y_pred.shape)
 
+```
+<details>
+<summary markdown="span">Output :</summary>
+Aksara, Usia: 25, Pendapatan 8500000</br>
+Senja, Usia: 28, Pendapatan 12500000	
+</details>
+</br>
+<a href="https://academy.dqlab.id/main/livecode/169/329/1573">Link materi : academy.dqlab.id/main/livecode/169/329/1573</a>
 
-### Evaluasi Model Performance - Part 2](https://academy.dqlab.id/main/livecode/169/329/1575)
-
-# In[15]:
-
+----
+### Evaluasi Model Performance - Part 2 
+ 
 ```plantuml
 from sklearn.metrics import confusion_matrix, classification_report
 
@@ -238,11 +333,18 @@ print('\nClassification report:')
 cr = classification_report(y_test, y_pred)
 print(cr)
 
+```
+<details>
+<summary markdown="span">Output :</summary>
+Aksara, Usia: 25, Pendapatan 8500000</br>
+Senja, Usia: 28, Pendapatan 12500000	
+</details>
+</br>
+<a href="https://academy.dqlab.id/main/livecode/169/329/1575">Link materi : academy.dqlab.id/main/livecode/169/329/1575</a>
 
-### Pemodelan Permasalahan Klasifikasi dengan Logistic Regression](https://academy.dqlab.id/main/livecode/169/330/1580)
-
-# In[18]:
-
+----
+### Pemodelan Permasalahan Klasifikasi dengan Logistic Regression 
+ 
 ```plantuml
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import confusion_matrix, classification_report
@@ -268,11 +370,18 @@ print('\nClassification report')
 cr = classification_report(y_test, y_pred)
 print(cr)
 
+```
+<details>
+<summary markdown="span">Output :</summary>
+Aksara, Usia: 25, Pendapatan 8500000</br>
+Senja, Usia: 28, Pendapatan 12500000	
+</details>
+</br>
+<a href="https://academy.dqlab.id/main/livecode/169/330/1580">Link materi : academy.dqlab.id/main/livecode/169/330/1580</a>
 
-### Tugas Praktek](https://academy.dqlab.id/main/livecode/169/330/1582)
-
-# In[19]:
-
+----
+### Tugas Praktek 
+ 
 ```plantuml
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier 
@@ -289,11 +398,18 @@ decision_tree = decision_tree.fit(X_train, y_train)
 print('Training Accuracy :', decision_tree.score(X_train, y_train))  
 print('Testing Accuracy :', decision_tree.score(X_test, y_test))  
 
+```
+<details>
+<summary markdown="span">Output :</summary>
+Aksara, Usia: 25, Pendapatan 8500000</br>
+Senja, Usia: 28, Pendapatan 12500000	
+</details>
+</br>
+<a href="https://academy.dqlab.id/main/livecode/169/330/1582">Link materi : academy.dqlab.id/main/livecode/169/330/1582</a>
 
-### Tugas Praktek](https://academy.dqlab.id/main/livecode/169/330/1585)
-
-# In[20]:
-
+----
+### Tugas Praktek 
+ 
 ```plantuml
 #load dataset
 import pandas as pd
@@ -327,11 +443,18 @@ reg = reg.fit(X_train, y_train)
 # Apply the regressor/model to the test data  
 y_pred = reg.predict(X_test)
 
+```
+<details>
+<summary markdown="span">Output :</summary>
+Aksara, Usia: 25, Pendapatan 8500000</br>
+Senja, Usia: 28, Pendapatan 12500000	
+</details>
+</br>
+<a href="https://academy.dqlab.id/main/livecode/169/330/1585">Link materi : academy.dqlab.id/main/livecode/169/330/1585</a>
 
-### Tugas Praktek](https://academy.dqlab.id/main/livecode/169/330/1587)
-
-# In[21]:
-
+----
+### Tugas Praktek 
+ 
 ```plantuml
 from sklearn.metrics import mean_squared_error, mean_absolute_error
 import numpy as np
@@ -352,11 +475,18 @@ plt.ylabel('Predicted value')
 plt.title('True value vs predicted value : Linear Regression')
 plt.show()
 
+```
+<details>
+<summary markdown="span">Output :</summary>
+Aksara, Usia: 25, Pendapatan 8500000</br>
+Senja, Usia: 28, Pendapatan 12500000	
+</details>
+</br>
+<a href="https://academy.dqlab.id/main/livecode/169/330/1587">Link materi : academy.dqlab.id/main/livecode/169/330/1587</a>
 
-### Tugas Praktek](https://academy.dqlab.id/main/livecode/169/331/1590)
-
-# In[23]:
-
+----
+### Tugas Praktek 
+ 
 ```plantuml
 #import library
 import pandas as pd  
@@ -372,10 +502,17 @@ X = dataset[['annual_income','spending_score']]
 cluster_model = KMeans(n_clusters = 5, random_state = 24)  
 labels = cluster_model.fit_predict(X)
 
+```
+<details>
+<summary markdown="span">Output :</summary>
+Aksara, Usia: 25, Pendapatan 8500000</br>
+Senja, Usia: 28, Pendapatan 12500000	
+</details>
+</br>
+<a href="https://academy.dqlab.id/main/livecode/169/331/1590">Link materi : academy.dqlab.id/main/livecode/169/331/1590</a>
 
-### Tugas Praktek](https://academy.dqlab.id/main/livecode/169/331/1591)
-
-# In[24]:
+----
+### Tugas Praktek 
 
 ```plantuml
 #import library
@@ -401,10 +538,17 @@ plt.xlabel('Annual Income')
 plt.ylabel('Spending Score')
 plt.show()
 
+```
+<details>
+<summary markdown="span">Output :</summary>
+Aksara, Usia: 25, Pendapatan 8500000</br>
+Senja, Usia: 28, Pendapatan 12500000	
+</details>
+</br>
+<a href="https://academy.dqlab.id/main/livecode/169/331/1591">Link materi : academy.dqlab.id/main/livecode/169/331/1591</a>
 
-### Tugas Praktek](https://academy.dqlab.id/main/livecode/169/331/1593)
-
-# In[25]:
+----
+### Tugas Praktek 
 
 ```plantuml
 #import library
@@ -431,10 +575,17 @@ plt.xlabel('No. of Clusters')
 plt.ylabel('inertia')
 plt.show()
 
+```
+<details>
+<summary markdown="span">Output :</summary>
+Aksara, Usia: 25, Pendapatan 8500000</br>
+Senja, Usia: 28, Pendapatan 12500000	
+</details>
+</br>
+<a href="https://academy.dqlab.id/main/livecode/169/331/1593">Link materi : academy.dqlab.id/main/livecode/169/331/1593</a>
 
-### Case Study: Promos for our e-commerce - Part 1](https://academy.dqlab.id/main/livecode/169/332/1596)
-
-# In[26]:
+----
+### Case Study: Promos for our e-commerce  
 
 ```plantuml
 #import library 
@@ -454,10 +605,18 @@ print(data.describe())
 print("Ukuran dataset:")
 print(data.shape)
 
+```
+<details>
+<summary markdown="span">Output :</summary>
+Aksara, Usia: 25, Pendapatan 8500000</br>
+Senja, Usia: 28, Pendapatan 12500000	
+</details>
+</br>
+<a href="https://academy.dqlab.id/main/livecode/169/332/1596">Link materi : academy.dqlab.id/main/livecode/169/332/1596</a>
 
-### Case Study: Promos for our e-commerce - Part 2](https://academy.dqlab.id/main/livecode/169/332/2466)
+----
+### Case Study: Promos for our e-commerce  
 
-# In[27]:
 
 ```plantuml
 #2. Data eksplorasi dengan dengan mengecek korelasi dari setiap feature menggunakan fungsi corr()
@@ -468,10 +627,18 @@ print(data.corr())
 print("\n[3] Data eksplorasi dengan mengecek distribusi label menggunakan fungsi groupby() dan size()")
 print(data.groupby('Clicked on Ad').size())
 
+```
+<details>
+<summary markdown="span">Output :</summary>
+Aksara, Usia: 25, Pendapatan 8500000</br>
+Senja, Usia: 28, Pendapatan 12500000	
+</details>
+</br>
+<a href="https://academy.dqlab.id/main/livecode/169/332/2466">Link materi : academy.dqlab.id/main/livecode/169/332/2466</a>
 
-### Case Study: Promos for our e-commerce - Part 3](https://academy.dqlab.id/main/livecode/169/332/2465)
+----
+### Case Study: Promos for our e-commerce  
 
-# In[28]:
 
 ```plantuml
 #import library
@@ -492,20 +659,35 @@ plt.figure()
 sns.pairplot(data)
 plt.show()
 
+```
+<details>
+<summary markdown="span">Output :</summary>
+Aksara, Usia: 25, Pendapatan 8500000</br>
+Senja, Usia: 28, Pendapatan 12500000	
+</details>
+</br>
+<a href="https://academy.dqlab.id/main/livecode/169/332/2465">Link materi : academy.dqlab.id/main/livecode/169/332/2465</a>
 
-### Case Study: Promos for our e-commerce - Part 4](https://academy.dqlab.id/main/livecode/169/332/2467)
+----
+### Case Study: Promos for our e-commerce  
 
-# In[29]:
 
 ```plantuml
 #5. Cek missing value
 print("\n[5] Cek missing value")
 print(data.isnull().sum().sum())
 
+```
+<details>
+<summary markdown="span">Output :</summary>
+Aksara, Usia: 25, Pendapatan 8500000</br>
+Senja, Usia: 28, Pendapatan 12500000	
+</details>
+</br>
+<a href="https://academy.dqlab.id/main/livecode/169/332/2467">Link materi : academy.dqlab.id/main/livecode/169/332/2467</a>
 
-### Case Study: Promos for our e-commerce - Part 5](https://academy.dqlab.id/main/livecode/169/332/1600)
-
-# In[30]:
+----
+### Case Study: Promos for our e-commerce 
 
 ```plantuml
 #import library
@@ -537,11 +719,17 @@ print("Evaluasi Model Performance:")
 print("Training Accuracy :", logreg.score(X_train, y_train))
 print("Testing Accuracy :", logreg.score(X_test, y_test))
 
+```
+<details>
+<summary markdown="span">Output :</summary>
+Aksara, Usia: 25, Pendapatan 8500000</br>
+Senja, Usia: 28, Pendapatan 12500000	
+</details>
+</br>
+<a href="https://academy.dqlab.id/main/livecode/169/332/1600">Link materi : academy.dqlab.id/main/livecode/169/332/1600</a>
 
-### Case Study: Promos for our e-commerce - Part 6](https://academy.dqlab.id/main/livecode/169/332/2468)
-
-# In[31]:
-
+----
+### Case Study: Promos for our e-commerce 
 ```plantuml
 # Import library
 from sklearn.metrics import confusion_matrix, classification_report
@@ -558,3 +746,13 @@ print(cm)
 print("Classification report:")
 cr = classification_report(y_test, y_pred)
 print(cr)
+```
+<details>
+<summary markdown="span">Output :</summary>
+</br>
+	
+</details>
+</br>
+<a href="https://academy.dqlab.id/main/livecode/169/332/2468">Link materi : academy.dqlab.id/main/livecode/169/332/2468</a>
+
+----
