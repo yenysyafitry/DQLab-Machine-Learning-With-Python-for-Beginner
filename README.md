@@ -112,6 +112,7 @@ Korelasi TrafficType-Weekend: -0.0022212292430307825
 <a href="https://academy.dqlab.id/main/livecode/169/328/1555">Link materi : academy.dqlab.id/main/livecode/169/328/1555</a>
 
 ----
+
 ### Eksplorasi Data: Memahami Data dengan Visual 
  Dalam mengeksplorasi data, kita perlu untuk memahami data dengan visual, selain dengan statistik kita juga bisa melakukan eksplorasi data dalam bentuk visual. Dengan visualisasi kita dapat dengan mudah dan cepat dalam memahami data, bahkan dapat memberikan pemahaman yang lebih baik terkait hubungan setiap variabel/ features.
  
@@ -142,6 +143,7 @@ plt.show()
 <a href="https://academy.dqlab.id/main/livecode/169/328/1558">Link materi : academy.dqlab.id/main/livecode/169/328/1558</a>
 
 ----
+
 ### Tugas Praktek 
  Dalam membuat visualisasi ini aku akan menggunakan dataset['region'] untuk membuat histogram, dan berikan judul 'Distribution of Customers' pada title, 'Region Codes' sebagai label axis-x dan 'Count Users' sebagai label axis-y.                                                                                                                                                                                                    
                                                                                  
@@ -162,6 +164,7 @@ plt.show()
 <a href="https://academy.dqlab.id/main/livecode/169/328/1559">Link materi : academy.dqlab.id/main/livecode/169/328/1559</a>
 
 ----
+
 ### Data Pre-processing: Handling Missing Value - Part 1 
 
 ```plantuml
@@ -182,6 +185,7 @@ Counting total missing value:</br>
 <a href="https://academy.dqlab.id/main/livecode/169/328/1561">Link materi : academy.dqlab.id/main/livecode/169/328/1561</a>
 
 ----
+
 ### Data Pre-processing: Handling Missing Value - Part 2 
  
 ```plantuml
@@ -198,6 +202,7 @@ Ukuran dataset_clean: (12316, 18)
 <a href="https://academy.dqlab.id/main/livecode/169/328/1563">Link materi : academy.dqlab.id/main/livecode/169/328/1563</a>
 
 ----
+
 ### Data Pre-processing: Handling Missing Value - Part 3 
  “Kalau tidak dihapus, ada metode lain yang bisa dipakai?”
 
@@ -219,6 +224,7 @@ print(dataset.isnull().sum())
 print(dataset.isnull().sum().sum())
 
 ```
+
 <details>
 <summary markdown="span">Output :</summary>
 Before imputation:
@@ -269,6 +275,7 @@ dtype: int64
 <a href="https://academy.dqlab.id/main/livecode/169/328/1565">Link materi : academy.dqlab.id/main/livecode/169/328/1565</a>
 
 ----
+
 ### Tugas Praktek 
  Praktekkan metode imputing missing value dengan menggunakan nilai median.
 ```plantuml
@@ -340,6 +347,7 @@ dtype: int64
 <a href="https://academy.dqlab.id/main/livecode/169/328/1566">Link materi : academy.dqlab.id/main/livecode/169/328/1566</a>
 
 ----
+
 ### Tugas Praktek 
  
 ```plantuml
@@ -371,6 +379,7 @@ PageValues               0.0  1.0
 <a href="https://academy.dqlab.id/main/livecode/169/328/1568">Link materi : academy.dqlab.id/main/livecode/169/328/1568</a>
 
 ----
+
 ### Data Pre-processing: Konversi string ke numerik 
  LabelEncoder akan mengurutkan label secara otomatis secara alfabetik, posisi/indeks dari setiap label ini digunakan sebagai nilai numeris konversi pandas objek ke numeris (dalam hal ini tipe data int). Dengan demikian kita telah membuat dataset kita menjadi dataset bernilai numeris seluruhnya yang siap digunakan untuk pemodelan dengan algoritma machine learning tertentu
 
@@ -404,6 +413,7 @@ print(np.sort(dataset['VisitorType'].unique()))
 <a href="https://academy.dqlab.id/main/livecode/169/328/2464">Link materi : academy.dqlab.id/main/livecode/169/328/2464</a>
 
 ----
+
 ### Features & Label 
  Dalam dataset user online purchase, label target sudah diketahui, yaitu kolom Revenue yang bernilai 1 untuk user yang membeli dan 0 untuk yang tidak membeli, sehingga pemodelan yang dilakukan ini adalah klasifikasi. Nah, untuk melatih dataset menggunakan Scikit-Learn library, dataset perlu dipisahkan ke dalam Features dan Label/Target. Variabel Feature akan terdiri dari variabel yang dideklarasikan sebagai X dan [Revenue] adalah variabel Target yang dideklarasikan sebagai y. Gunakan fungsi drop() untuk menghapus kolom [Revenue] dari dataset.
 ```plantuml
@@ -425,6 +435,7 @@ shape of y: (12330,)
 <a href="https://academy.dqlab.id/main/livecode/169/329/1570">Link materi : academy.dqlab.id/main/livecode/169/329/1570</a>
 
 ----
+
 ### Training dan Test Dataset 
  Dataset perlu kita bagi ke dalam training dataset dan test dataset dengan perbandingan 80:20. 80% digunakan untuk training dan 20% untuk proses testing. Fungsi Training adalah melatih model untuk mengenali pola dalam data, sedangkan testing berfungsi untuk memastikan bahwa model yang telah dilatih tersebut mampu dengan baik memprediksi label dari new observation dan belum dipelajari oleh model sebelumnya. Bagi dataset ke dalam Training dan Testing dengan melanjutkan coding yang  sudah kukerjakan ini. Gunakan test_size = 0.2 dan tambahkan argumen random_state = 0,  pada fungsi train_test_split( ).
 ```plantuml
@@ -446,6 +457,7 @@ print("Shape of y_test :", y_test.shape)
 <a href="https://academy.dqlab.id/main/livecode/169/329/1571">Link materi : academy.dqlab.id/main/livecode/169/329/1571</a>
 
 ----
+
 ### Training Model: Fit 
  kita akan menggunakan Decision Tree. Kita hanya perlu memanggil fungsi DecisionTreeClassifier() yang kita namakan “model”. Kemudian menggunakan fungsi .fit() dan X_train, y_train untuk melatih classifier tersebut dengan training dataset
 ```plantuml
@@ -690,6 +702,7 @@ labels = cluster_model.fit_predict(X)
 <a href="https://academy.dqlab.id/main/livecode/169/331/1590">Link materi : academy.dqlab.id/main/livecode/169/331/1590</a>
 
 ----
+
 ### Tugas Praktek 
 
 ```plantuml
@@ -726,6 +739,7 @@ plt.show()
 <a href="https://academy.dqlab.id/main/livecode/169/331/1591">Link materi : academy.dqlab.id/main/livecode/169/331/1591</a>
 
 ----
+
 ### Tugas Praktek 
 
 ```plantuml
@@ -762,6 +776,7 @@ plt.show()
 <a href="https://academy.dqlab.id/main/livecode/169/331/1593">Link materi : academy.dqlab.id/main/livecode/169/331/1593</a>
 
 ----
+
 ### Case Study: Promos for our e-commerce - Part 1 
 Adapun feature - feature dalam dataset ini adalah :
 
