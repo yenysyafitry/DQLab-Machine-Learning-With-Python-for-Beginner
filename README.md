@@ -144,9 +144,10 @@ plt.show()
 
 ----
 
+
 ### Tugas Praktek 
- Dalam membuat visualisasi ini aku akan menggunakan dataset['region'] untuk membuat histogram, dan berikan judul 'Distribution of Customers' pada title, 'Region Codes' sebagai label axis-x dan 'Count Users' sebagai label axis-y.                                                                                                                                                                                                    
-                                                                                 
+
+ Dalam membuat visualisasi ini aku akan menggunakan dataset['region'] untuk membuat histogram, dan berikan judul 'Distribution of Customers' pada title, 'Region Codes' sebagai label axis-x dan 'Count Users' sebagai label axis-y.                                                                                                                                                                                                                                                                                  
 ```plantuml
 import matplotlib.pyplot as plt
 # visualizing the distribution of customers around the Region
@@ -160,6 +161,7 @@ plt.show()
 <details>
 <summary markdown="span">Output :</summary>
 <img src="https://github.com/yenysyafitry/DQLab-Machine-Learning-With-Python-for-Beginner/blob/main/download (1).png">
+	</details>
 </br>
 <a href="https://academy.dqlab.id/main/livecode/169/328/1559">Link materi : academy.dqlab.id/main/livecode/169/328/1559</a>
 
