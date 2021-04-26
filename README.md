@@ -23,13 +23,12 @@ Shape dataset: (12330, 18)</br>
 
 Lima data teratas:</br>
 
-|  |  Administrative | Administrative_Duration | ...  |Weekend  |Revenue |
-|  | :--: 	     | 		:--:           | :--: |  :--:   | :--:   |
-|0 |          0.0    |                  0.0    |  ... |   False |   False|
-|1 |          0.0    |                  0.0    |  ... |   False |   False|
-|2 |          0.0    |                 -1.0    |  ... |   False |   False|
-|3 |          0.0    |                  0.0    |  ... |   False |   False|
-|4 |          0.0    |                  0.0    |  ... |    True |   False|
+<table align="center"><tr> <td></td> <td>  Administrative></td> <td> Administrative_Duration></td> <td> ... </td> <td>Weekend </td> <td>Revenue </td> </tr>
+<tr> <td>0 </td> <td>          0.0    </td> <td>                  0.0    </td> <td>  ... </td> <td>   False </td> <td>   False</td> </tr>
+<tr> <td>1 </td> <td>          0.0    </td> <td>                  0.0    </td> <td>  ... </td> <td>   False </td> <td>   False</td> </tr>
+<tr> <td>2 </td> <td>          0.0    </td> <td>                 -1.0    </td> <td>  ... </td> <td>   False </td> <td>   False</td> </tr>
+<tr> <td>3 </td> <td>          0.0    </td> <td>                  0.0    </td> <td>  ... </td> <td>   False </td> <td>   False</td> </tr>
+<tr> <td>4 </td> <td>          0.0    </td> <td>                  0.0    </td> <td>  ...</td> <td>    True </td> <td>   False</td> </tr>
 
 [5 rows x 18 columns]</br></br>
 
