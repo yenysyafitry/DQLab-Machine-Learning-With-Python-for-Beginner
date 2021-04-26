@@ -35,39 +35,40 @@ Lima data teratas:</br>
 Informasi dataset:</br>
 <class 'pandas.core.frame.DataFrame'></br>
 RangeIndex: 12330 entries, 0 to 12329</br>
-Data columns (total 18 columns):</br>
-Administrative             12316 non-null float64</br>
-Administrative_Duration    12316 non-null float64</br>
-Informational              12316 non-null float64</br>
-Informational_Duration     12316 non-null float64</br>
-ProductRelated             12316 non-null float64</br>
-ProductRelated_Duration    12316 non-null float64
-BounceRates                12316 non-null float64
-ExitRates                  12316 non-null float64
-PageValues                 12330 non-null float64
-SpecialDay                 12330 non-null float64
-Month                      12330 non-null object
-OperatingSystems           12330 non-null int64
-Browser                    12330 non-null int64
-Region                     12330 non-null int64
-TrafficType                12330 non-null int64
-VisitorType                12330 non-null object
-Weekend                    12330 non-null bool
-Revenue                    12330 non-null bool
-dtypes: bool(2), float64(10), int64(4), object(2)
-memory usage: 1.5+ MB
-None
+<table align="center"> <tr> <td colspan="4">Data columns (total 18 columns):</td></tr>
+<tr><td> Administrative         <td></td>    12316 <td></td> non-null <td></td> float64</td></tr>
+<tr><td> Administrative_Duration <td></td>    12316<td></td>  non-null<td></td>  float64</td></tr>
+<tr><td> Informational           <td></td>    12316<td></td>  non-null<td></td>  float64</td></tr>
+<tr><td> Informational_Duration  <td></td>    12316<td></td>  non-null<td></td>  float64</td></tr>
+<tr><td> ProductRelated          <td></td>    12316 <td></td> non-null<td></td>  float64</td></tr>
+<tr><td> ProductRelated_Duration<td></td>     12316<td></td>  non-null<td></td>  float64</td></tr>
+<tr><td> BounceRates            <td></td>     12316 <td></td> non-null<td></td>  float64</td></tr>
+<tr><td> ExitRates              <td></td>     12316 <td></td> non-null<td></td>  float64</td></tr>
+<tr><td> PageValues             <td></td>     12330 <td></td> non-null <td></td> float64</td></tr>
+<tr><td> SpecialDay             <td></td>     12330<td></td>  non-null <td></td> float64</td></tr>
+<tr><td> Month                  <td></td>     12330 <td></td> non-null <td></td> object</td></tr>
+<tr><td> OperatingSystems       <td></td>     12330 <td></td> non-null <td></td> int64</td></tr>
+<tr><td> Browser                <td></td>     12330 <td></td> non-null<td></td>  int64</td></tr>
+<tr><td> Region                 <td></td>     12330 <td></td> non-null <td></td> int64</td></tr>
+<tr><td> TrafficType            <td></td>     12330 <td></td> non-null <td></td> int64</td></tr>
+<tr><td> VisitorType            <td></td>     12330 <td></td> non-null<td></td>  object</td></tr>
+<tr><td> Weekend                <td></td>     12330<td></td>  non-null <td></td> bool</td></tr>
+<tr><td> Revenue                <td></td>     12330 <td></td> non-null<td></td>  bool</td></tr></table>
+dtypes: bool(2), float64(10), int64(4), object(2)</br>
+memory usage: 1.5+ MB</br>
+None</br>
 
 Statistik deskriptif:
-        Administrative  Administrative_Duration  ...        Region   TrafficType
-count    12316.000000             12316.000000  ...  12330.000000  12330.000000
-mean         2.317798                80.906176  ...      3.147364      4.069586
-std          3.322754               176.860432  ...      2.401591      4.025169
-min          0.000000                -1.000000  ...      1.000000      1.000000
-25%          0.000000                 0.000000  ...      1.000000      2.000000
-50%          1.000000                 8.000000  ...      3.000000      2.000000
-75%          4.000000                93.500000  ...      4.000000      4.000000
-max         27.000000              3398.750000  ...      9.000000     20.000000
+<table align="center"> <tr> 
+<td colspan="2">Administrative   <td></td> Administrative_Duration <td></td>   ...       <td></td>   Region   TrafficType</td></tr>
+<tr><td>count  <td></td>  12316.000000   <td></td>            12316.000000  <td></td>  ... <td></td> 12330.000000   <td></td> 12330.000000</td></tr>
+<tr><td>mean   <td></td>      2.317798   <td></td>               80.906176  <td></td>  ...  <td></td>    3.147364  <td></td>      4.069586</td></tr>
+<tr><td>std    <td></td>      3.322754  <td></td>               176.860432  <td></td>  ...  <td></td>    2.401591  <td></td>      4.025169</td></tr>
+<tr><td>min    <td></td>      0.000000   <td></td>               -1.000000  <td></td>  ...  <td></td>    1.000000  <td></td>      1.000000</td></tr>
+<tr><td>25%    <td></td>      0.000000   <td></td>                0.000000  <td></td>  ...  <td></td>    1.000000  <td></td>      2.000000</td></tr>
+<tr><td>50%    <td></td>      1.000000   <td></td>                8.000000  <td></td>  ...  <td></td>    3.000000  <td></td>      2.000000</td></tr>
+<tr><td>75%    <td></td>      4.000000   <td></td>               93.500000  <td></td>  ...  <td></td>    4.000000  <td></td>      4.000000</td></tr>
+<tr><td>max    <td></td>     27.000000   <td></td>             3398.750000  <td></td>  ...  <td></td>    9.000000   <td></td>    20.000000</td></tr>
 
 [8 rows x 14 columns]
 </details>
