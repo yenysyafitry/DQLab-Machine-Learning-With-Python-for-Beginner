@@ -37,7 +37,7 @@ Informasi dataset:</br>
 <class 'pandas.core.frame.DataFrame'></br>
 RangeIndex: 12330 entries, 0 to 12329</br>
 
-<table align="center"> <tr> <td colspan="4">Data columns (total 18 columns):</td></tr>
+<table align="center"> <tr> <td>Data columns (total 18 columns):</td></tr>
 <tr><td> Administrative         <td></td>    12316 <td></td> non-null <td></td> float64</td></tr>
 <tr><td> Administrative_Duration <td></td>    12316<td></td>  non-null<td></td>  float64</td></tr>
 <tr><td> Informational           <td></td>    12316<td></td>  non-null<td></td>  float64</td></tr>
