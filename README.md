@@ -64,15 +64,15 @@ None</br>
 Statistik deskriptif:
 
 <table align="center"> <tr> 
-	<td></td><td>Administrative   <td></td> Administrative_Duration <td></td>   ...       <td></td>   Region   TrafficType</td></tr>
-<tr><td>count  <td></td>  12316.000000   <td></td>            12316.000000  <td></td>  ... <td></td> 12330.000000   <td></td> 12330.000000</td></tr>
-<tr><td>mean   <td></td>      2.317798   <td></td>               80.906176  <td></td>  ...  <td></td>    3.147364  <td></td>      4.069586</td></tr>
-<tr><td>std    <td></td>      3.322754  <td></td>               176.860432  <td></td>  ...  <td></td>    2.401591  <td></td>      4.025169</td></tr>
-<tr><td>min    <td></td>      0.000000   <td></td>               -1.000000  <td></td>  ...  <td></td>    1.000000  <td></td>      1.000000</td></tr>
-<tr><td>25%    <td></td>      0.000000   <td></td>                0.000000  <td></td>  ...  <td></td>    1.000000  <td></td>      2.000000</td></tr>
-<tr><td>50%    <td></td>      1.000000   <td></td>                8.000000  <td></td>  ...  <td></td>    3.000000  <td></td>      2.000000</td></tr>
-<tr><td>75%    <td></td>      4.000000   <td></td>               93.500000  <td></td>  ...  <td></td>    4.000000  <td></td>      4.000000</td></tr>
-<tr><td>max    <td></td>     27.000000   <td></td>             3398.750000  <td></td>  ...  <td></td>    9.000000   <td></td>    20.000000</td></tr></table>
+	<td></td><td>Administrative   </td><td> Administrative_Duration </td><td>   ...       </td><td>   Region   TrafficType</td></tr>
+<tr><td>count  </td><td>  12316.000000   </td><td>           12316.000000  </td><td>  ... </td><td> 12330.000000   </td><td> 12330.000000</td></tr>
+<tr><td>mean   </td><td>     2.317798   </td><td>              80.906176  </td><td>  ...  </td><td>    3.147364  </td><td>      4.069586</td></tr>
+<tr><td>std    </td><td>      3.322754  </td><td>              176.860432 </td><td>  ...  </td><td>   2.401591  </td><td>     4.025169</td></tr>
+<tr><td>min    </td><td>      0.000000   </td><td>               -1.000000 </td><td>  ...  </td><td>   1.000000  </td><td>    1.000000</td></tr>
+<tr><td>25%    </td><td>    0.000000   </td><td>              0.000000  </td><td>  ...  </td><td>  1.000000  </td><td>     2.000000</td></tr>
+<tr><td>50%    </td><td>     1.000000   </td><td>                8.000000  </td><td>  ...  </td><td>    3.000000  </td><td>      2.000000</td></tr>
+<tr><td>75%    </td><td>      4.000000   </td><td>              93.500000  </td><td> ... </td><td>    4.000000  </td><td>     4.000000</td></tr>
+<tr><td>max   </td><td>     27.000000   </td><td>             3398.750000  </td><td>  ...  </td><td>   9.000000   </td><td>    20.000000</td></tr></table>
 
 [8 rows x 14 columns]
 </details>
