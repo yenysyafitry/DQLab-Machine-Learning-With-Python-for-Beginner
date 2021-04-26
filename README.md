@@ -37,7 +37,7 @@ Informasi dataset:</br>
 <class 'pandas.core.frame.DataFrame'></br>
 RangeIndex: 12330 entries, 0 to 12329</br>
 
-<table align="center"> <tr> <td colspan="4">Data columns (total 18 columns):</td></tr>
+<table align="center"> <tr align="center"> <td colspan="4">Data columns (total 18 columns):</td></tr>
 <tr><td> Administrative         </td><td>   12316 </td><td> non-null </td><td> float64</td></tr>
 <tr><td> Administrative_Duration </td><td>    12316</td><td>  non-null</td><td>  float64</td></tr>
 <tr><td> Informational           </td><td>   12316</td><td>  non-null</td><td> float64</td></tr>
@@ -61,10 +61,10 @@ dtypes: bool(2), float64(10), int64(4), object(2)</br>
 memory usage: 1.5+ MB</br>
 None</br>
 
-Statistik deskriptif:
+Statistik deskriptif:</br>
 
 <table align="center"> <tr> 
-	<td></td><td>Administrative   </td><td> Administrative_Duration </td><td>   ...       </td><td>   Region   TrafficType</td></tr>
+	<td></td><td>Administrative   </td><td> Administrative_Duration </td><td>   ...       </td><td>   Region   </td><td>TrafficType</td></tr>
 <tr><td>count  </td><td>  12316.000000   </td><td>           12316.000000  </td><td>  ... </td><td> 12330.000000   </td><td> 12330.000000</td></tr>
 <tr><td>mean   </td><td>     2.317798   </td><td>              80.906176  </td><td>  ...  </td><td>    3.147364  </td><td>      4.069586</td></tr>
 <tr><td>std    </td><td>      3.322754  </td><td>              176.860432 </td><td>  ...  </td><td>   2.401591  </td><td>     4.025169</td></tr>
