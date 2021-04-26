@@ -28,7 +28,7 @@ Lima data teratas:</br>
 <tr> <td>1 </td> <td>          0.0    </td> <td>                  0.0    </td> <td>  ... </td> <td>   False </td> <td>   False</td> </tr>
 <tr> <td>2 </td> <td>          0.0    </td> <td>                 -1.0    </td> <td>  ... </td> <td>   False </td> <td>   False</td> </tr>
 <tr> <td>3 </td> <td>          0.0    </td> <td>                  0.0    </td> <td>  ... </td> <td>   False </td> <td>   False</td> </tr>
-<tr> <td>4 </td> <td>          0.0    </td> <td>                  0.0    </td> <td>  ...</td> <td>    True </td> <td>   False</td> </tr>
+<tr> <td>4 </td> <td>          0.0    </td> <td>                  0.0    </td> <td>  ...</td> <td>    True </td> <td>   False</td> </tr></table>
 
 [5 rows x 18 columns]</br></br>
 
