@@ -23,7 +23,7 @@ Shape dataset: (12330, 18)</br>
 
 Lima data teratas:</br>
 
-<table align="center"><tr> <td></td> <td>  Administrative></td> <td> Administrative_Duration></td> <td> ... </td> <td>Weekend </td> <td>Revenue </td> </tr>
+<table align="center"><tr> <td></td> <td>  Administrative</td> <td> Administrative_Duration</td> <td> ... </td> <td>Weekend </td> <td>Revenue </td> </tr>
 <tr> <td>0 </td> <td>          0.0    </td> <td>                  0.0    </td> <td>  ... </td> <td>   False </td> <td>   False</td> </tr>
 <tr> <td>1 </td> <td>          0.0    </td> <td>                  0.0    </td> <td>  ... </td> <td>   False </td> <td>   False</td> </tr>
 <tr> <td>2 </td> <td>          0.0    </td> <td>                 -1.0    </td> <td>  ... </td> <td>   False </td> <td>   False</td> </tr>
