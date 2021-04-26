@@ -22,25 +22,26 @@ print('\nStatistik deskriptif:\n', dataset.describe())
 Shape dataset: (12330, 18)</br>
 
 Lima data teratas:</br>
-|  |  Administrative | Administrative_Duration | ...  |Weekend  |Revenue|
-|  | :--: 	     | 		:--:           | :--: |  :--:   |:--:   |
+
+|  |  Administrative | Administrative_Duration | ...  |Weekend  |Revenue |
+|  | :--: 	     | 		:--:           | :--: |  :--:   | :--:   |
 |0 |          0.0    |                  0.0    |  ... |   False |   False|
 |1 |          0.0    |                  0.0    |  ... |   False |   False|
 |2 |          0.0    |                 -1.0    |  ... |   False |   False|
 |3 |          0.0    |                  0.0    |  ... |   False |   False|
 |4 |          0.0    |                  0.0    |  ... |    True |   False|
 
-[5 rows x 18 columns]
+[5 rows x 18 columns]</br></br>
 
-Informasi dataset:
-<class 'pandas.core.frame.DataFrame'>
-RangeIndex: 12330 entries, 0 to 12329
-Data columns (total 18 columns):
-Administrative             12316 non-null float64
-Administrative_Duration    12316 non-null float64
-Informational              12316 non-null float64
-Informational_Duration     12316 non-null float64
-ProductRelated             12316 non-null float64
+Informasi dataset:</br>
+<class 'pandas.core.frame.DataFrame'></br>
+RangeIndex: 12330 entries, 0 to 12329</br>
+Data columns (total 18 columns):</br>
+Administrative             12316 non-null float64</br>
+Administrative_Duration    12316 non-null float64</br>
+Informational              12316 non-null float64</br>
+Informational_Duration     12316 non-null float64</br>
+ProductRelated             12316 non-null float64</br>
 ProductRelated_Duration    12316 non-null float64
 BounceRates                12316 non-null float64
 ExitRates                  12316 non-null float64
