@@ -36,6 +36,7 @@ Lima data teratas:</br>
 Informasi dataset:</br>
 <class 'pandas.core.frame.DataFrame'></br>
 RangeIndex: 12330 entries, 0 to 12329</br>
+
 <table align="center"> <tr> <td colspan="4">Data columns (total 18 columns):</td></tr>
 <tr><td> Administrative         <td></td>    12316 <td></td> non-null <td></td> float64</td></tr>
 <tr><td> Administrative_Duration <td></td>    12316<td></td>  non-null<td></td>  float64</td></tr>
@@ -55,6 +56,7 @@ RangeIndex: 12330 entries, 0 to 12329</br>
 <tr><td> VisitorType            <td></td>     12330 <td></td> non-null<td></td>  object</td></tr>
 <tr><td> Weekend                <td></td>     12330<td></td>  non-null <td></td> bool</td></tr>
 <tr><td> Revenue                <td></td>     12330 <td></td> non-null<td></td>  bool</td></tr></table>
+
 dtypes: bool(2), float64(10), int64(4), object(2)</br>
 memory usage: 1.5+ MB</br>
 None</br>
