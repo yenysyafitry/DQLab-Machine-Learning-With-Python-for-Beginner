@@ -974,3 +974,5 @@ Classification report:</br>
 <a href="https://academy.dqlab.id/main/livecode/169/332/2468">Link materi : academy.dqlab.id/main/livecode/169/332/2468</a>
 
 ----
+
+<p align="center"><b>E-Sertifikat </b></br><img src="https://github.com/yenysyafitry/DQLab-Machine-Learning-With-Python-for-Beginner/blob/main/e-sertifikat.jpg"></p>
