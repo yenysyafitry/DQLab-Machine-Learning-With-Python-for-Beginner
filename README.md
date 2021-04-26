@@ -23,7 +23,8 @@ Shape dataset: (12330, 18)</br>
 
 Lima data teratas:</br>
 
-<table align="center"><tr> <td></td> <td>  Administrative</td> <td> Administrative_Duration</td> <td> ... </td> <td>Weekend </td> <td>Revenue </td> </tr>
+<table align="center"><tr> 
+     <td></td>    <td>  Administrative</td> <td> Administrative_Duration</td> <td> ... </td> <td>Weekend </td> <td>Revenue </td> </tr>
 <tr> <td>0 </td> <td>          0.0    </td> <td>                  0.0    </td> <td>  ... </td> <td>   False </td> <td>   False</td> </tr>
 <tr> <td>1 </td> <td>          0.0    </td> <td>                  0.0    </td> <td>  ... </td> <td>   False </td> <td>   False</td> </tr>
 <tr> <td>2 </td> <td>          0.0    </td> <td>                 -1.0    </td> <td>  ... </td> <td>   False </td> <td>   False</td> </tr>
@@ -59,8 +60,9 @@ memory usage: 1.5+ MB</br>
 None</br>
 
 Statistik deskriptif:
+
 <table align="center"> <tr> 
-<td colspan="2">Administrative   <td></td> Administrative_Duration <td></td>   ...       <td></td>   Region   TrafficType</td></tr>
+	<td></td><td>Administrative   <td></td> Administrative_Duration <td></td>   ...       <td></td>   Region   TrafficType</td></tr>
 <tr><td>count  <td></td>  12316.000000   <td></td>            12316.000000  <td></td>  ... <td></td> 12330.000000   <td></td> 12330.000000</td></tr>
 <tr><td>mean   <td></td>      2.317798   <td></td>               80.906176  <td></td>  ...  <td></td>    3.147364  <td></td>      4.069586</td></tr>
 <tr><td>std    <td></td>      3.322754  <td></td>               176.860432  <td></td>  ...  <td></td>    2.401591  <td></td>      4.025169</td></tr>
