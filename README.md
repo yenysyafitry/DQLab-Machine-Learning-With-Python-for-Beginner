@@ -68,7 +68,7 @@ Statistik deskriptif:
 <tr><td>25%    <td></td>      0.000000   <td></td>                0.000000  <td></td>  ...  <td></td>    1.000000  <td></td>      2.000000</td></tr>
 <tr><td>50%    <td></td>      1.000000   <td></td>                8.000000  <td></td>  ...  <td></td>    3.000000  <td></td>      2.000000</td></tr>
 <tr><td>75%    <td></td>      4.000000   <td></td>               93.500000  <td></td>  ...  <td></td>    4.000000  <td></td>      4.000000</td></tr>
-<tr><td>max    <td></td>     27.000000   <td></td>             3398.750000  <td></td>  ...  <td></td>    9.000000   <td></td>    20.000000</td></tr>
+<tr><td>max    <td></td>     27.000000   <td></td>             3398.750000  <td></td>  ...  <td></td>    9.000000   <td></td>    20.000000</td></tr></table>
 
 [8 rows x 14 columns]
 </details>
