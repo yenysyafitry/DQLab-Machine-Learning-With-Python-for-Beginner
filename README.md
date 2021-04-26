@@ -1,9 +1,7 @@
-<p align="justify">Dalam pembuatan model machine learning tentunya dibutuhkan data. Sekumpulan data yang digunakan dalam machine learning disebut DATASET, yang kemudian dibagi/di-split menjadi training dataset dan test dataset.</br></br>
-TRAINING DATASET digunakan untuk membuat/melatih model machine learning, sedangkan TEST DATASET digunakan untuk menguji performa/akurasi dari model yang telah dilatih/ di training.</br></br>
-Teknik atau pendekatan yang digunakan untuk membangun model disebut ALGORITHM seperti Decision Tree, K-NN, Linear Regression, Random Forest, dsb. dan output atau hasil dari proses melatih algorithm dengan suatu dataset disebut MODEL.</br></br>
-Umumnya dataset disajikan dalam bentuk tabel yang terdiri dari baris dan kolom. Bagian Kolom adalah FEATURE atau VARIABEL data yang dianalisa, sedangkan bagian baris adalah DATA POINT/OBSERVATION/EXAMPLE.</br></br>
-Hal yang menjadi target prediksi atau hal yang akan diprediksi dalam machine learning disebut LABEL/CLASS/TARGET. Dalam statistika/matematika, LABEL/CLASS/TARGET ini dinamakan dengan Dependent Variabel, dan FEATURE adalah Independent Variabel. Machine Learning itu terbagi menjadi 2 tipe yaitu supervised dan unsupervised Learning. Jika LABEL/CLASS dari dataset sudah diketahui maka dikategorikan sebagai supervised learning, dan jika Label belum diketahui maka dikategorikan sebagai unsupervised learning. Mengenali email sebagai spam atau bukan spam tergolong sebagai supervised learning, karena kita mengolah dataset yang berisi data point yang telah diberi LABEL ”spam” dan “not spam”. Sedangkan jika kita ingin mengelompokkan customer ke dalam beberapa segmentasi berdasarkan variabel-variabel seperti pendapatan, umur, hobi, atau jenis pekerjaan, maka tergolong sebagai unsupervised learning</br></br>
-Supervised learning jika LABEL dari dataset kalian berupa numerik atau kontinu variabel seperti harga, dan  jumlah penjualan, kita memilih metode REGRESI dan jika bukan numerik atau diskrit maka digunakan metode KLASIFIKASI. Untuk unsupervised learning, seperti segmentasi customer, kita menggunakan metode CLUSTERING
+<p align="justify">Dalam pembuatan model machine learning tentunya dibutuhkan data. Sekumpulan data yang digunakan dalam machine learning disebut <b>Dataset</b>, yang kemudian dibagi/di-split menjadi training dataset dan test dataset.<b>Training Dataset</b> digunakan untuk membuat/melatih model machine learning, sedangkan <b>Test Dataset</b> digunakan untuk menguji performa/akurasi dari model yang telah dilatih/ di training.</br></br>
+Teknik atau pendekatan yang digunakan untuk membangun model disebut Algoritm seperti Decision Tree, K-NN, Linear Regression, Random Forest, dsb. dan output atau hasil dari proses melatih algorithm dengan suatu dataset disebut <b>Model</b>. Umumnya dataset disajikan dalam bentuk tabel yang terdiri dari baris dan kolom. Bagian Kolom adalah Feature atau Variabel data yang dianalisa, sedangkan bagian baris adalah Data Point/Observation/Example.</br></br>
+Hal yang menjadi target prediksi atau hal yang akan diprediksi dalam machine learning disebut Label/Class/Target. Dalam statistika/matematika, Label/Class/Target ini dinamakan dengan Dependent Variabel, dan Feature adalah Independent Variabel. Machine Learning itu terbagi menjadi 2 tipe yaitu supervised dan unsupervised Learning. Jika Label/Classdari dataset sudah diketahui maka dikategorikan sebagai supervised learning, dan jika Label belum diketahui maka dikategorikan sebagai unsupervised learning. Mengenali email sebagai spam atau bukan spam tergolong sebagai supervised learning, karena kita mengolah dataset yang berisi data point yang telah diberi LABEL ”spam” dan “not spam”. Sedangkan jika kita ingin mengelompokkan customer ke dalam beberapa segmentasi berdasarkan variabel-variabel seperti pendapatan, umur, hobi, atau jenis pekerjaan, maka tergolong sebagai unsupervised learning</br></br>
+Supervised learning jika Label dari dataset kalian berupa numerik atau kontinu variabel seperti harga, dan  jumlah penjualan, kita memilih metode Regresi dan jika bukan numerik atau diskrit maka digunakan metode Klasifikasi. Untuk unsupervised learning, seperti segmentasi customer, kita menggunakan metode Clustering</p>
 
 ### Eksplorasi Data: Memahami Data dengan Statistik - Part 1 
 
@@ -21,15 +19,16 @@ print('\nStatistik deskriptif:\n', dataset.describe())
 
 <details>
 <summary markdown="span">Output :</summary>
-Shape dataset: (12330, 18)
+Shape dataset: (12330, 18)</br>
 
-Lima data teratas:
-    Administrative  Administrative_Duration  ...  Weekend  Revenue
-0             0.0                      0.0  ...    False    False
-1             0.0                      0.0  ...    False    False
-2             0.0                     -1.0  ...    False    False
-3             0.0                      0.0  ...    False    False
-4             0.0                      0.0  ...     True    False
+Lima data teratas:</br>
+|  |  Administrative | Administrative_Duration | ...  |Weekend  |Revenue|
+|  | :--: 	     | 		:--:           | :--: |  :--:   |:--:   |
+|0 |          0.0    |                  0.0    |  ... |   False |   False|
+|1 |          0.0    |                  0.0    |  ... |   False |   False|
+|2 |          0.0    |                 -1.0    |  ... |   False |   False|
+|3 |          0.0    |                  0.0    |  ... |   False |   False|
+|4 |          0.0    |                  0.0    |  ... |    True |   False|
 
 [5 rows x 18 columns]
 
